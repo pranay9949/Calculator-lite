@@ -12,7 +12,7 @@ const Calculator=()=>{
     const validate = (e) => {
         if (!num1 || num1 === '') {
           setError(true);
-          setErrorMsg('Num 1 should not be empty');
+          setErrorMsg('Numm 1 should not be empty');
           return false;
         }
         if (isNaN(num1)) {
